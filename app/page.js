@@ -1,9 +1,11 @@
-import Image from "next/image";
+"use client";
+import React from "react";
+import Worklist from "./components/Worklist";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    adnan
-    </main>
+   <>
+   <Worklist/>
+    </>
   );
 }
